@@ -14,8 +14,8 @@ export default function Hero(){
           <motion.h1 initial={{y:20, opacity:0}} animate={{y:0, opacity:1}} transition={{delay:0.1}} className="mt-8 text-6xl font-serifhead leading-tight">EmmyPay!</motion.h1>
           <p className="mt-6 max-w-lg text-lg">We offer instant recharge of airtime, data bundles, cable TV subscriptions (DSTV, GOTV & STARTIMES), electricity bill payments, and Airtime to Cash.</p>
           <div className="mt-8 flex gap-4">
-            <button className="emmy-btn bg-red-600">Register</button>
-            <button className="emmy-btn bg-emerald-500">Login</button>
+            {/* <button className="emmy-btn bg-red-600">Register</button> */}
+            {/* <button className="emmy-btn bg-emerald-500">Login</button> */}
           </div>
         </div>
         <motion.div initial={{scale:0.95, opacity:0}} animate={{scale:1, opacity:1}} transition={{delay:0.15}}>
@@ -25,5 +25,6 @@ export default function Hero(){
     </div>
   )
 }
+
 
 

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@300;400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --emmy-blue: #07106b; --accent: #7c3aed; }
+
+body { @apply bg-white text-slate-900; font-family: Inter, sans-serif; }
+.hero-bg { background: linear-gradient(180deg,var(--emmy-blue), #0b2a8a); }
+.rounded-card { border-radius: 18px; }
+.emmy-btn { @apply px-6 py-3 rounded-lg font-semibold shadow-md; }
